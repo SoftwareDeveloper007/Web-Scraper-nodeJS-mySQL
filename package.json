@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper with nodeJS + mySQL",
+  "main": "database_management.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluePerl/Web-Scraper-nodeJS-mySQL.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Martin Wuhrmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluePerl/Web-Scraper-nodeJS-mySQL/issues"
+  },
+  "homepage": "https://github.com/BluePerl/Web-Scraper-nodeJS-mySQL#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0"
+  }
+}
